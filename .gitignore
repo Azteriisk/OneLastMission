@@ -1,0 +1,70 @@
+# Unreal Engine generic files
+Saved/
+Intermediate/
+DerivedDataCache/
+Build/
+Binaries/
+.vs/
+Debug/
+webcache_4430/
+ShaderAutogen/
+ReimportCache/
+
+# Config files to ignore (keep Default*.ini)
+/Config/ConsoleHistory.ini
+/Config/WindowsEditor/
+/Config/WorldState/
+/Config/CrashReportClient/
+
+# Python environment
+/PipInstall/
+__pycache__/
+*.py[cod]
+*.so
+
+# Content to keep
+!Content/
+!Config/DefaultEngine.ini
+!Config/DefaultGame.ini
+!Config/DefaultInput.ini
+!Config/DefaultEditor.ini
+
+# Specific project files
+*.uasset
+*.umap
+!Content/**/*.uasset
+!Content/**/*.umap
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Visual Studio files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+ipch/
+.vscode/
+
+# Logs
+*.log
+
+# Cache files
+*.pdb
+*.pid
+*.cache
+
+# Crash dumps
+*.dmp
+CrashContext.runtime-xml
